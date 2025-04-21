@@ -1,4 +1,4 @@
-export default function Home() {
+function Home() {
   return (
     <div className="bg-white text-gray-800 font-sans">
       {/* Hero Section */}
@@ -59,3 +59,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home
