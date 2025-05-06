@@ -48,7 +48,7 @@ function Home() {
       <section id="contact" className="py-20 px-6 md:px-20 text-center">
         <h2 className="text-3xl font-bold mb-4">Let’s Build Together</h2>
         <p className="mb-6 text-lg">Got a project in mind? We’d love to hear from you.</p>
-        <a href="https://wa.me/233XXXXXXXXX" className="bg-green-600 text-white px-6 py-3 rounded-full font-semibold shadow hover:bg-green-700 transition">
+        <a href="https://wa.me/233505404401" className="bg-green-600 text-white px-6 py-3 rounded-full font-semibold shadow hover:bg-green-700 transition">
           Message Us on WhatsApp
         </a>
       </section>
