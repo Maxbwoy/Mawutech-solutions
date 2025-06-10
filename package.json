@@ -1,5 +1,5 @@
 {
-  "name": "mawutech-solutions",
+  "name": "package.json",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,7 +14,7 @@
     "@tailwindcss/vite": "^4.1.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router-dom": "^7.5.1"
+    "react-router-dom": "^7.6.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
@@ -29,5 +29,17 @@
     "postcss": "^8.5.3",
     "tailwindcss": "^4.1.5",
     "vite": "^6.3.1"
-  }
+  },
+  "description": "",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxbwoy/Mawutech-solutions.git"
+  },
+  "author": "Maxbwoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maxbwoy/Mawutech-solutions/issues"
+  },
+  "homepage": "https://github.com/Maxbwoy/Mawutech-solutions#readme"
 }
