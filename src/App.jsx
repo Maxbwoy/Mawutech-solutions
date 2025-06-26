@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './Home'
 import ClientQuestionnaire from './ClientQuestionnaire'
 import Navbar from './Navbar'
+import ClientChecklistForm from './ClientChecklistForm'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home /> } />
         <Route path="/ClientQuestionnaire" element={<ClientQuestionnaire /> } />
+        <Route path="/ClientChecklistForm" element={<ClientChecklistForm /> } />
       </Routes>
     </Router>
   )

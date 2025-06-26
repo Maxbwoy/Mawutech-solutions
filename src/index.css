@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+a:hover {
+    transition: 0.5s;
+    border-radius: 10%;
+}
+nav {
+    top: 0;
+}
+
+a:active {
+    color: aqua;
+    background-color: brown;
+}

@@ -87,7 +87,7 @@ function ClientQuestionnaire() {
   return (
     <div className="p-6">
       <form onSubmit={handleSubmit} className="space-y-6">
-        <h1 className="text-2xl text-center font-bold mb-4">Mawutech Solutions - Web Design Client Questionnaire Form</h1>
+        <h1 className="text-2xl text-center font-bold mb-4 text-pink-300">Mawutech Solutions - Web Design Client Questionnaire Form</h1>
         <hr />
 
         <section>
@@ -227,7 +227,7 @@ function ClientQuestionnaire() {
           <textarea name="finalComments" placeholder="Other comments or requirements" value={formData.finalComments} onChange={handleChange} className="block border p-2 my-2 w-full" />
         </section>
 
-        <button type="submit" className="bg-blue-500 text-white p-3 rounded shadow hover:bg-blue-600">Submit</button>
+        <button type="submit" className="bg-blue-500 text-white p-3 rounded shadow hover:bg-green-400 hover:text-red-600">Submit</button>
       </form>
     </div>
   );
