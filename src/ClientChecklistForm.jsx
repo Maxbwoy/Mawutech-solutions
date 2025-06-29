@@ -215,14 +215,14 @@
 // export default ClientChecklistForm
 
 import { useState, useEffect, useRef } from "react";
-import { db, auth } from "./firebase";
-import { doc, getDoc, setDoc } from "firebase/firestore";
-import {
-  onAuthStateChanged,
-  signInWithPopup,
-  GoogleAuthProvider,
-  signOut,
-} from "firebase/auth";
+// import { db, auth } from "./firebase";
+// import { doc, getDoc, setDoc } from "firebase/firestore";
+// import {
+//   onAuthStateChanged,
+//   signInWithPopup,
+//   GoogleAuthProvider,
+//   signOut,
+// } from "firebase/auth";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
 
