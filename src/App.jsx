@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home /> } />
         <Route path="/ClientQuestionnaire" element={<ClientQuestionnaire /> } />
-        <Route path="/ClientChecklistForm" element={<ClientChecklistForm /> } />
+        <Route path="/clientchecklistform" element={<ClientChecklistForm /> } />
       </Routes>
     </Router>
   )
